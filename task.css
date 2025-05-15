@@ -1,0 +1,100 @@
+body {
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
+}
+
+#game {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin-left: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+button {
+    padding: 8px;
+    margin-top: 20px;
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: background-color 0.25s ease;
+}
+
+circle {
+    stroke: white;
+    stroke-width: 2px;
+    fill: rgb(62, 62, 62);
+    transition: fill 0.2s ease;
+    transition: stroke 0.2s ease;
+    cursor: pointer;
+}
+
+circle.blue {
+    fill: blue;
+    stroke: blue;
+}
+
+circle.red {
+    fill: red;
+    stroke: red;
+}
+
+line {
+    stroke: white;
+    stroke-width: 2px;
+}
+
+circle.selected {
+    stroke-width: 5px;
+}
+
+.scorer {
+    margin-bottom: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+.scoreb {
+    margin-bottom: 15px;
+    color: blue;
+    font-weight: bold;
+}
+
+.time {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#pr {
+    display: flex;
+    flex-direction: row;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: rgb(215, 212, 212);
+}
