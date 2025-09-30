@@ -1,11 +1,11 @@
 # Titan's Circuit
 
-**Titan’s Circuit** is a two-player, turn-based strategy game built with **HTML, CSS, and Vanilla JavaScript**
+Titan’s Circuit is a two-player, turn-based strategy game built with **HTML, CSS, and Vanilla JavaScript**
 Players compete by placing and moving Titans across a concentric hexagonal grid to capture weighted edges, score points, and outwit their opponent within strict time limits.
 
 ## Objective
 Control edges of the hexagonal board by placing and moving your Titans.  
-The player with the **highest score** at the end of the game wins.
+The player with the highest score at the end of the game wins.
 
 ## How to Open and Run the Game
 
