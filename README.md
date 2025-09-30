@@ -10,7 +10,7 @@ The player with the highest score at the end of the game wins.
 ## How to Open and Run the Game
 
 1. **Clone the repository**  
-   git clone https://github.com/farjz/titans-circuit.git
+   git clone https://github.com/farjzz/titans-circuit.git
    cd titans-circuit
 3. **Run the game in your browser**  
    Locate the `index.html` file in the folder
